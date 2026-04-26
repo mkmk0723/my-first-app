@@ -21,13 +21,16 @@ export default function RootLayout({
       <body className={`${notoText.className} bg-white text-gray-900`}>
         {/* ヘッダー：全ページ共通 */}
         <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100 px-8 py-6 flex justify-between items-center">
-          <div className={`text-2xl tracking-widest ${sawarabi.className}`}>SUSgallery</div>
+        <div className={`flex flex-col ${sawarabi.className}`}>
+          <span className="text-2xl tracking-[0.3em]">時と、歩む。</span>
+          <span className="text-[8px] tracking-[0.2em] text-gray-400 mt-1 uppercase">Produced by SUSgallery</span>
+        </div>          
           <nav>
             <ul className="flex gap-8 text-xs tracking-widest uppercase">
-              <li>Products</li>
-              <li>Contents</li>
-              <li>News</li>
-              <li>Stores</li>
+            <li className="hover:text-gray-400 transition-colors cursor-pointer">Products</li>              
+            <li className="hover:text-gray-400 transition-colors cursor-pointer">Contents</li>
+              <li className="hover:text-gray-400 transition-colors cursor-pointer">News</li>
+              <li className="hover:text-gray-400 transition-colors cursor-pointer">Stores</li>
             </ul>
           </nav>
         </header>

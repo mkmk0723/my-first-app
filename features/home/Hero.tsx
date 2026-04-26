@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <Image
-        src="/top-fv.jpg"
+        src="/images/top-fv.jpg"
         alt="Main Visual"
         fill
         className="object-cover"

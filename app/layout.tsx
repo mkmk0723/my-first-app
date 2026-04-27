@@ -8,7 +8,7 @@ const sawarabi = Sawarabi_Mincho({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SUSgallery Prototype",
-  description: "Next.jsで再現する高級ブランドサイト",
+  description: "Next.jsで再現するsample-site",
 };
 
 export default function RootLayout({
